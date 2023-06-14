@@ -22,8 +22,8 @@ public class MediaAlunos {
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
 				System.out.println("Por favor, insira um valor válido.");
-				leitura.nextLine(); // Limpa o buffer do scanner para uma nova entrada
-				i--; // Repetir a iteração atual para obter uma nota válida
+				leitura.nextLine(); 
+				i--; 
 			}
 		}
 
